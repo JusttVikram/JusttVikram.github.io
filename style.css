@@ -21,6 +21,7 @@ header {
 
 header h1 {
     font-size: 36px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
 }
 
 header p {
@@ -48,10 +49,12 @@ footer {
 a {
     color: #007bff00;
     text-decoration: none;
+    transition: color 0.3s ease;
 }
 
 a:hover {
     text-decoration: underline;
+    color: #0057b3;
 }
 
 /* Style headings */
@@ -68,6 +71,12 @@ h2 {
     border-radius: 5px;
     background-color: #fff;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.project-card:hover {
+    transform: scale(1.02);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 /* Style images in project cards */
@@ -84,6 +93,7 @@ h2 {
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    transition: background-color 0.3s ease;
 }
 
 .button:hover {
