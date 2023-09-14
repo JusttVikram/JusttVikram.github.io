@@ -13,8 +13,8 @@ body {
 
 /* Style the header section */
 header {
-    background-color: #000; /* Set background color to black */
-    color: #ffA500; /* Orange text */
+    background-color: #007bff;
+    color: #fff;
     text-align: center;
     padding: 50px 0;
     position: relative;
@@ -30,6 +30,21 @@ header p {
     font-size: 20px;
 }
 
+/* Add a background graphic to the header */
+header::before {
+    content: "";
+    background-image: url('background-image.jpg');
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0.3;
+    z-index: -1;
+}
+
 /* Style the main content area */
 .container {
     max-width: 800px;
@@ -41,10 +56,10 @@ header p {
 
 /* Style the footer */
 footer {
-    background-color: #000; /* Set background color to black */
-    color: #ffA500; /* Orange text */
     text-align: center;
     padding: 20px 0;
+    background-color: #007bff;
+    color: #fff;
 }
 
 /* Style links */
