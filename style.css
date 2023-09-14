@@ -48,14 +48,14 @@ footer {
 
 /* Style links */
 a {
-    color: #cf71185c;
+    color: #007bff00;
     text-decoration: none;
     transition: color 0.3s ease;
 }
 
 a:hover {
     text-decoration: underline;
-    color: #cf71185c;
+    color: #0000005c;
 }
 
 /* Style headings */
