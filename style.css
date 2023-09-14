@@ -13,8 +13,8 @@ body {
 
 /* Style the header section */
 header {
-    background-color: #007bff;
-    color: #fff;
+    background-color: #000;
+    color: #ffA500; /* Orange text */
     text-align: center;
     padding: 50px 0;
     position: relative;
@@ -56,10 +56,10 @@ header::before {
 
 /* Style the footer */
 footer {
+    background-color: #000;
+    color: #ffA500; /* Orange text */
     text-align: center;
     padding: 20px 0;
-    background-color: #007bff;
-    color: #fff;
 }
 
 /* Style links */
